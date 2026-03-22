@@ -3,3 +3,6 @@ server:
 
 general:
   kafka-topic: trader-updates
+  
+incentive:
+  url: http://localhost:8082/incentive

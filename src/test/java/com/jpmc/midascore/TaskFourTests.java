@@ -44,7 +44,7 @@ public class TaskFourTests {
         
         for (UserRecord user : userRepository.findAll()) {
             if ("wilbur".equals(user.getName())) {
-                logger.info("Wilbur's balance is: " + user.getBalance());
+                logger.info("Wilbur's balance is: " + Math.floor(user.getBalance()));
                 break;
             }
         }
